@@ -2,5 +2,8 @@
     color: #982A1C;
 }
 .img-container{
-    background-image: url('/Assests');
+    width: 100%;
+}
+.img-container img{
+    width: 100%;
 }
