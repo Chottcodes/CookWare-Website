@@ -63,3 +63,13 @@
     aspect-ratio: 1/1;
     object-fit: cover;
 }
+.arrivals-container{
+    width: 100%;
+}
+
+.arrivals-tittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
