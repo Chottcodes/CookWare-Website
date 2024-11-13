@@ -73,3 +73,21 @@
     align-items: center;
     width: 100%;
 }
+.arrivals-tittle h1{
+    font-size: 60px;
+}
+.collections-card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 40px;
+    width: 80%;
+    padding-top: 2%;
+    margin: auto;
+}
+.new-arrivals-pot{
+    width: 100%;
+    height: 517.53px;
+    object-fit:cover ;
+    
+}
