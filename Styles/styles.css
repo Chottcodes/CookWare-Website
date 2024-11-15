@@ -7,23 +7,23 @@
   height: 1100px;
   background-color: black;
   display: grid;
-  grid-template-rows: repeat(3,1fr);
-  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
   position: relative;
 }
-.lady-img{
+.lady-img {
   width: 100%;
   height: 100%;
   grid-row: 1/4;
   grid-column: 1/3;
 }
-.lady-img img{
+.lady-img img {
   width: 100%;
   height: 100%;
   aspect-ratio: 1/1;
-    object-fit: cover;
+  object-fit: cover;
 }
 .cookware-Text-Container {
   background-color: rgba(0, 0, 0, 0.692);
@@ -35,7 +35,6 @@
   grid-row: 3;
   grid-column: 1/2;
   margin: auto;
-  
 }
 .cookware-Text-Container h1 {
   color: white;
@@ -57,10 +56,9 @@
 .start-cooking-container {
   display: grid;
   grid-template-rows: 200px 600px;
-  grid-template-columns: repeat(1,1fr);
+  grid-template-columns: repeat(1, 1fr);
   width: 100%;
   height: 800px;
-  
 }
 .cooking-tittle-text {
   grid-row: 1;
@@ -69,134 +67,126 @@
   height: 100%;
   justify-content: center;
   align-items: end;
-  
 }
 .cooking-tittle-text h1 {
   font-size: 60px;
   padding-bottom: 10%;
-  
 }
-.cooking-pans-container{
+.cooking-pans-container {
   display: grid;
   width: 90%;
   height: 100%;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
   grid-row: 2/5;
   grid-column: 1/4;
   gap: 35px;
-   margin: auto;
-   align-items: center;
+  margin: auto;
+  align-items: center;
 }
 
-.images-pot-adjust{
+.images-pot-adjust {
   width: 100%;
   height: 100%;
-   border-radius: 10px;
-    aspect-ratio: 1/1;
-    object-fit: cover;
+  border-radius: 10px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
 }
 
-
-
-.arrivals-container{
-    width: 100%;
+.arrivals-container {
+  width: 100%;
 }
 
-.arrivals-tittle{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+.arrivals-tittle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
-.arrivals-tittle h1{
-    font-size: 60px;
+.arrivals-tittle h1 {
+  font-size: 60px;
 }
-.collections-card-container{
-    display: flex;
-    gap: 40px;
-    width: 90%;
-    padding-top: 2%;
-    justify-content: center;
-    margin: auto;
+.collections-card-container {
+  display: flex;
+  gap: 40px;
+  width: 90%;
+  padding-top: 2%;
+  justify-content: center;
+  margin: auto;
 }
-.new-arrivals-pot{
-    width: 100%;
-    height: 517.53px;
-    object-fit:cover;
+.new-arrivals-pot {
+  width: 100%;
+  height: 517.53px;
+  object-fit: cover;
 }
-.colors-container{
+.colors-container {
   width: 25%;
   height: 5%;
   display: flex;
   align-items: center;
   justify-content: start;
   gap: 10px;
-  
 }
-.colors-1{
-  background-color: #EA2D2C;
+.colors-1 {
+  background-color: #ea2d2c;
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  border:2px solid black;
-
+  border: 2px solid black;
 }
-.colors-2{
-  background-color: #FB5108;
+.colors-2 {
+  background-color: #fb5108;
   width: 25px;
   height: 25px;
   border-radius: 100%;
 }
-.colors-3{
-  background-color:#D29D12 ;
+.colors-3 {
+  background-color: #d29d12;
   width: 25px;
   height: 25px;
   border-radius: 100%;
 }
-.colors-4{
+.colors-4 {
   background-color: #353535;
   width: 25px;
   height: 25px;
   border-radius: 100%;
 }
 /*Best Sellers start*/
-.seller-container{
+.seller-container {
   width: 100%;
 }
-.best-Sellers-Container{
+.best-Sellers-Container {
   display: grid;
   width: 90%;
   height: 1200px;
   margin: auto;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 200px 1fr;
   justify-content: center;
   gap: 40px;
-  
 }
-.sellers-title{
+.sellers-title {
   grid-column: 2/3;
   margin: auto;
 }
-.outer-pot-shell-1{
+.outer-pot-shell-1 {
   grid-row: 2;
   grid-column: 1/2;
   border: 1px solid black;
   height: 90%;
   display: grid;
   border-radius: 2%;
-
 }
-.Stock-Pot-Container{
+.Stock-Pot-Container {
   width: 90%;
   height: 90%;
   margin: auto;
   display: grid;
-  grid-template-rows:363px 50px 150px 83px;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 363px 50px 150px 83px;
+  grid-template-columns: repeat(2, 1fr);
 }
-.img-Pot{
+.img-Pot {
   width: 100%;
   height: 100%;
   border-radius: 2%;
@@ -204,166 +194,158 @@
   grid-row: 1;
   grid-column: 1/3;
 }
-.img-Pot img{
- width: 100%;
- height: 100%;
- object-fit: cover;
+.img-Pot img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.Stock-pot-title-1{
+.Stock-pot-title-1 {
   grid-row: 2;
   grid-column: 1/2;
-  
 }
-.Stock-pot-description{
+.Stock-pot-description {
   grid-row: 3;
   grid-column: 1/3;
 }
-.pot-button-1{
+.pot-button-1 {
   grid-row: 4;
   grid-column: 1/2;
   height: 100%;
-  
 }
-.pot-button-1 button{
+.pot-button-1 button {
   height: 100%;
   width: 100%;
   background-color: white;
 }
-.Stock-Pot-Container-2{
+.Stock-Pot-Container-2 {
   grid-row: 2;
   grid-column: 2/3;
   width: 100%;
   height: 100%;
-  
 }
-.stock-pot-shell-2{
+.stock-pot-shell-2 {
   width: 100%;
   height: 100%;
   border: 1px solid black;
   border-radius: 2%;
   display: grid;
 }
-.stock-pot-inner-shell-2{
+.stock-pot-inner-shell-2 {
   width: 90%;
   height: 90%;
   margin: auto;
   display: grid;
-  grid-template-rows:363px 70px 370px auto;
-  grid-template-columns: repeat(2,1fr);
-  
+  grid-template-rows: 363px 70px 370px auto;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.pot-2-img{
+.pot-2-img {
   grid-row: 1;
   grid-column: 1/3;
   width: 100%;
   height: 100%;
 }
-.pot-2-img img{
+.pot-2-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.pot-2-Description{
+.pot-2-Description {
   grid-row: 3;
   grid-column: 1/3;
   text-align: start;
-  
 }
-.pot-2-Description h4{
+.pot-2-Description h4 {
   font-size: 20px;
 }
-.pot-2-btn{
+.pot-2-btn {
   grid-row: 4;
   grid-column: 1/2;
 }
-.pot-2-btn button{
+.pot-2-btn button {
   height: 100%;
   width: 100%;
 }
-.sauce-pan-3-Container{
+.sauce-pan-3-Container {
   grid-row: 2;
   grid-column: 3/4;
   width: 100%;
   height: 100%;
 }
-.pot-3-outer-shell{
+.pot-3-outer-shell {
   width: 100%;
   height: 100%;
   border: 1px solid black;
   border-radius: 2%;
   display: grid;
 }
-.pot-3-inner-shell{
+.pot-3-inner-shell {
   width: 90%;
   height: 90%;
   margin: auto;
   display: grid;
-  grid-template-rows:363px 70px 370px auto;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 363px 70px 370px auto;
+  grid-template-columns: repeat(2, 1fr);
 }
-.pot-3-image{
+.pot-3-image {
   grid-row: 1;
   grid-column: 1/3;
   width: 100%;
   height: 100%;
 }
-.pot-3-image img{
+.pot-3-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.pot-3-title{
+.pot-3-title {
   grid-row: 2;
   grid-column: 1/3;
   text-align: start;
 }
-.pot-3-description{
+.pot-3-description {
   grid-row: 3;
   grid-column: 1/3;
   text-align: start;
 }
-.pot-3-button button{
+.pot-3-button button {
   height: 100%;
   width: 100%;
 }
 /*Best Sellers end*/
 
-.review-container{
-  
+.review-container {
   height: 100%;
   width: 90%;
   margin: auto;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   display: grid;
   grid-template-rows: auto auto;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 35px;
-  position: relative;
-  
 }
-.review-title{
+.review-title {
   width: 100%;
   padding-top: 5%;
   text-align: center;
   grid-row: 1;
   grid-column: span 3;
 }
-.Wok-Star{
+.Wok-Star {
   width: 100%;
   height: 100%;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: auto;
 }
-.Wok-Star img{
+.Wok-Star img {
   width: 100%;
   height: 100%;
   grid-area: 1/1;
   object-fit: cover;
   z-index: 1;
 }
-.wok-text-container{
+.wok-text-container {
   background-color: rgba(0, 0, 0, 0.452);
   width: 80%;
   height: 50%;
@@ -374,12 +356,12 @@
   display: grid;
   align-items: center;
 }
-.wok-text h1{
+.wok-text h1 {
   text-align: center;
   padding: auto;
   color: white;
 }
-.wok-text p{
+.wok-text p {
   text-align: center;
   color: white;
   padding: auto;
@@ -387,28 +369,28 @@
   width: 90%;
   margin: auto;
 }
-.wok-text h4{
+.wok-text h4 {
   color: white;
   text-align: center;
   padding-top: 5%;
 }
-.Built-2-last{
+.Built-2-last {
   width: 100%;
   height: 100%;
 }
-.Best-CookWare{
+.Best-CookWare {
   width: 100%;
   height: 100%;
   background-color: purple;
 }
-.Built-2-last{
+.Built-2-last {
   width: 100%;
   height: 500px;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: auto;
 }
-.Built-2-last img{
+.Built-2-last img {
   width: 100%;
   height: 100%;
   grid-area: 1/1;
@@ -416,7 +398,7 @@
   object-fit: cover;
   z-index: 1;
 }
-.built-2-container{
+.built-2-container {
   background-color: rgba(0, 0, 0, 0.452);
   width: 80%;
   height: 50%;
@@ -427,12 +409,12 @@
   display: grid;
   align-items: center;
 }
-.built-2-text h1{
+.built-2-text h1 {
   text-align: center;
   padding: auto;
   color: white;
 }
-.built-2-text p{
+.built-2-text p {
   text-align: center;
   color: white;
   padding: auto;
@@ -440,20 +422,19 @@
   width: 90%;
   margin: auto;
 }
-.built-2-text h4{
+.built-2-text h4 {
   color: white;
   text-align: center;
   padding-top: 5%;
 }
-.Best-CookWare{
+.Best-CookWare {
   width: 100%;
   height: 500px;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: auto;
- 
 }
-.Best-CookWare img{
+.Best-CookWare img {
   width: 100%;
   height: 100%;
   grid-area: 1/1;
@@ -461,7 +442,7 @@
   aspect-ratio: 1/1;
   z-index: 1;
 }
-.best-cookware-container{
+.best-cookware-container {
   background-color: rgba(0, 0, 0, 0.452);
   width: 80%;
   height: 50%;
@@ -473,52 +454,264 @@
   align-items: center;
 }
 
-.best-title-text{
+.best-title-text {
   color: white;
   display: grid;
   align-items: center;
 }
-.best-title-text h1{
+.best-title-text h1 {
   font-size: 30px;
   margin: auto;
 }
-.best-title-text p{
+.best-title-text p {
   margin: auto;
   width: 90%;
 }
-.best-title-text h4{
+.best-title-text h4 {
   margin: auto;
 }
-.footer-container{
+
+.footer-container {
   background-color: #1e2c20;
-  height: 100%;
+  height: 300px;
   width: 100%;
-  
 }
-.inner-container{
+.inner-container {
   width: 100%;
   height: 100%;
   display: grid;
-  grid-template-columns: repeat(6,1fr);
+  align-items: center;
+  grid-template-columns: repeat(6, 1fr);
   gap: 20px;
 }
-.footer-titles{
+.footer-titles {
   color: white;
-  font-size: 10px;
+  font-size: 15px;
 }
-.footer-list{
+.footer-list {
   color: white;
   list-style: none;
+  font-size: 10px;
+  padding: 0px;
 }
-.about-our-home-container{
-  
+.footer-list li {
+  margin-bottom: 5px;
 }
-.products-container{
-  
-
+.footer-adjusted {
+  margin-top: 10%;
+  display: grid;
+  justify-content: end;
 }
-.customer-service{
+.subscribe-container {
+  grid-column: 5/7;
+}
+.subscribe-text p {
+  color: white;
+  width: 70%;
+  font-size: 10px;
+}
+.subscribe-text button {
+  background-color: #1e2c20;
+  color: white;
+  border-color: white;
+  width: 130px;
+}
+.footer-logos {
+  margin-top: 4%;
+  width: 30%;
+  height: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.footer-logos img {
+  filter: invert(1);
+  width: 25px;
+  height: 30px;
+}
+/*tablet version start*/
+@media(max-width: 992px) {
+  .cookware-Text-Container{
+    width: 90%;
+    height: 35%;
+  }
+  .cookware-Text-Container h1 {
+    width: 100%;
+    font-size: 35px;
+  }
+  .start-cooking-container{
+    height: 100%;
+  }
+  .cooking-pans-container{
+    grid-template-rows:repeat(2,1fr);
+  }
+  .cast-iron-Container{
+    grid-row: 1;
+    grid-column: span 2;
+  }
+  .stock-pot-Container{
+    grid-row: 1;
+    grid-column: 3/5;
+  }
+  .sauce-pan-Container{
+    grid-row: 2;
+    grid-column: span 2;
+  }
+  .Accessories-Container{
+    grid-row: 2;
+    grid-column: 3/5;
+  }
+  .collections-card-container{
+    flex-wrap: wrap;
+  }
+  .seller-container{
+    height: 3400px;
+  }
+  .best-Sellers-Container{
+    grid-template-rows: repeat(3,1fr);
+  }
+  .outer-pot-shell-1{
+    grid-column: 1/4;
+    height: 1000px;
+  }
+  .Stock-Pot-Container{
+    width: 90%;
+    grid-template-rows: 500px auto auto auto;
+  }
+  .img-Pot img{
+    object-fit: cover;
+  }
+  .Stock-pot-title-1 h1{
+    font-size: 60px;
+  }
+  .Stock-pot-description h4{
+    font-size: 40px;
+  }
+  .pot-button-1{
+    font-size: 50px;
+  }
+  .Stock-Pot-Container-2{
+    grid-row: 3;
+    grid-column: 1/4;
+    width: 100%;
+    height: 1200px;
+  }
+  .stock-pot-inner-shell-2{
+    width: 90%;
+    height: 90%;
+    grid-template-rows: 500px auto auto auto;
+  }
+  .pot-2-img img{
+    object-fit: cover;
+  }
+  .pot-2-title h1{
+    font-size: 60px;
+  }
+  .pot-2-Description h4{
+    font-size: 28px;
+  }
+  .pot-2-btn{
+    font-size: 50px;
+    margin-top: 5%;
+  }
+  .sauce-pan-3-Container{
+    grid-row:4;
+    grid-column: 1/4;
+    height: 1000px;
+  }
+  .pot-3-inner-shell{
+    width: 90%;
+    height: 90%;
+    grid-template-rows: 500px auto auto auto;
+  }
+  .pot-3-title h1{
+    font-size: 60px;
+  }
+  .pot-3-image img{
+    object-fit: cover;
+    height: 100%;
+  }
+  .pot-3-description h4{
+    font-size: 30px;
+  }
+  .pot-3-button{
+    font-size: 50px;
+  }
+  .review-container{
+    grid-template-rows:95px auto auto;
+    grid-template-columns: 1fr;
+    height: 100%;
+   
+  }
+  .Wok-Star{
+    grid-row: 2;
+    grid-column: 1;
+    width: 100%;
+    height: 50%;
+  }
+  .Wok-Star img{
+    width: 100%;
+    height: 100%;
+  }
+  .Built-2-last{
+    grid-row: 3;
+    grid-column: 1;
+    width: 100%;
+    height: 50%;
+  }
  
+  .Best-CookWare{
+    grid-row: 4;
+    grid-template-columns: 1;
+    width: 100%;
+    height: 100%;
+  }
+  .footer-container{
+    height: 100%;
+
+  }
+  .inner-container{
+    grid-template-rows:repeat(3,1fr);
+    gap: 0;
+   
+  }
+  .about-our-home-container{
+    grid-row: 1;
+    grid-column: 1/3;
+    justify-content: start;
+    padding-left: 50px;
+  }
+  .about-our-home-container h1{
+    font-size: 30px;
+  }
+  .about-our-home-container ul{
+    font-size: 20px;
+  }
+  .products-container {
+    grid-row: 2;
+    grid-column: 1/3;
+    margin: 0px;
+    justify-content: start;
+    padding-left: 50px;
+  }
+  .products-container h1{
+    font-size: 30px;
+  }
+  .products-container ul{
+    font-size: 20px;
+  }
+  .customer-service {
+    grid-row: 3;
+    grid-template-columns: 2/4;
+    padding-left: 50px;
+  }
+  .customer-service h1{
+    font-size: 30px;
+  }
+  .customer-service ul{
+    font-size: 20px;
+  }
   
 }
 
+/*tablet version End*/

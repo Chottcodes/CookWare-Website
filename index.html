@@ -14,7 +14,7 @@
   </head>
   <body>
     <!--Boot strap nav section start-->
-    <div class="nav-container w-75 h-75">
+    <div class="nav-container w-75 h-75 d-none d-lg-block">
       <div class="row">
         <div class="col-3 justify-content-center d-flex mt-5 pb-5">
           <img src="./Assests/Logo.svg" class="w-25" alt="website logo" />
@@ -56,6 +56,98 @@
       </div>
     </div>
     <!--Bootstrap nav end-->
+    <!--Bootstrap smaller nav start-->
+    <div class="smaller-nav-container w-100 d-lg-none">
+      <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <div class="hamburger-btn w-100">
+            <div class="row align-items-center w-100">
+              <div class="col-10">
+                <button
+                  class="navbar-toggler h-100 w-25 border-0"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasNavbar"
+                  aria-controls="offcanvasNavbar"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+              <div class="col-2">
+                <img class="h-50 w-75" src="./Assests/Logo.svg" alt="company logo">
+              </div>
+            </div>
+          </div>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                Offcanvas
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!--Bootstrap smaller nav end-->
+
     <!--Hero Image start (grid)-->
     <div class="img-container">
       <div class="lady-img">
@@ -286,7 +378,7 @@
     <!--Footer start-->
     <div class="footer-container">
       <div class="inner-container">
-        <div class="about-our-home-container">
+        <div class="about-our-home-container footer-adjusted">
           <h1 class="footer-titles">ABOUT OUR HOME</h1>
           <ul class="footer-list">
             <li>ABOUT US</li>
@@ -295,16 +387,16 @@
             <li>MEDIA RELATIONS</li>
           </ul>
         </div>
-        <div class="products-container">
+        <div class="products-container footer-adjusted">
+          <h1 class="footer-titles">PRODUCTS</h1>
           <ul class="footer-list">
-            <h1 class="footer-titles">PRODUCTS</h1>
             <li>COOKWARE</li>
             <li>BAKEWARE</li>
             <li>BEST SELLERS</li>
             <li>ACCESSORIES</li>
           </ul>
         </div>
-        <div class="customer-service">
+        <div class="customer-service footer-adjusted">
           <h1 class="footer-titles">CUSTOMER SERVICE</h1>
           <ul class="footer-list">
             <li>CONTACT US</li>
@@ -314,7 +406,22 @@
           </ul>
         </div>
 
-
+        <div class="subscribe-container">
+          <div class="subscribe-text">
+            <p>
+              Subscribe to our newsletter to be the first to know about new
+              products and special events.
+            </p>
+            <input type="text" placeholder="Enter email adress" />
+            <button>SUBSCRIBE</button>
+            <div class="footer-logos">
+              <img src="./Assests/facebook.png" alt="" />
+              <img src="./Assests/twitter.png" alt="" />
+              <img src="./Assests/instagram.png" alt="" />
+              <img src="./Assests/linkedin.png" class="linkedin-icon" alt="" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
