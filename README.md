@@ -2,5 +2,5 @@ Chris Wells-Hott
 Assignment: CookWare Website
 last worked on: 11/15/2024
 Made a website based of a prototype figma and made the website responsive for desktop,tablet, and mobile.
-Peer Review:
-Comment:
+Peer Review: Bronel Lazar
+Comment: Overall the site looks great and pretty accurate to the figma! Just a few small nitpicking, on desktop, the nav buttons and footer text is too small. The navbar does not have the hover effects shown in the prototype, the Start Cooking, New Arrivals, and Best Sellers images dont have the image hover effects that were in the prototype, the SHOP NOW buttons in best sellers are disproportionate in size (the one in the first card is much larger than the ones in the other two cards and is a different color), they also lack hover effects that were in the figma. Review section cards arent as tall as the ones in the prototype. Tablet looks great, I love the incorporation of the sticky nav. Mobile looks good! just some card images are too tall and the "Fall Bakeware" text in the Best Sellers section overlaps the description text in the card. Lastly the mobile menu for the nav doesnt stick to the left side of the page like it does in the figma and the buttons in said menu are too small.    
