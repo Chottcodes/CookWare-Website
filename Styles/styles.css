@@ -1,4 +1,14 @@
-
+@font-face{
+  font-family: 'Roboto';
+  src: url('../Assests/fonts/Roboto-Regular.ttf')
+}
+@font-face{
+  font-family: 'Roboto-Bold';
+  src: url('../Assests/fonts/Roboto-Bold.ttf');
+}
+body{
+  font-family: 'Roboto',Arial, Helvetica, sans-serif;
+}
 
 .font-color-sale {
   color: #982a1c;
@@ -40,7 +50,18 @@
 }
 .cookware-Text-Container h1 {
   color: white;
-  font-size: 60px;
+  font-size: 40px;
+}
+.transform-img{
+  height: fit-content;
+  overflow: hidden;
+}
+.hover-effect{
+  transition: transform .2s ease;
+  transform-origin: 50% 50%;
+}
+.hover-effect:hover{
+  transform: scale(1.2);
 }
 .discount-container {
   background-color: #1e2c20;
@@ -613,6 +634,9 @@
     font-size: 50px;
     margin-top: 5%;
   }
+  .sellers-title h1{
+    font-size: 50px;
+  }
   .sauce-pan-3-Container {
     grid-row: 4;
     grid-column: 1/4;
@@ -640,6 +664,10 @@
     grid-template-rows: 95px auto auto;
     grid-template-columns: 1fr;
     height: 100%;
+    margin-top: 10%;
+  }
+  .review-title h1{
+    font-size: 50px;
   }
   .Wok-Star {
     grid-row: 2;
@@ -742,6 +770,7 @@
     gap: 0;
   }
   .seller-container {
+    margin-bottom: 10%;
     height: 3500px;
   }
   .sellers-title {
